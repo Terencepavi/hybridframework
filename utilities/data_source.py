@@ -6,3 +6,8 @@ test_invalid_login_data = [
 test_valid_login_data = [
     ("Admin", "admin123")
 ]
+
+test_add_valid_employee_data = [
+    ["Admin", "admin123", "John", "J", "Wick", "John Wick", "John"],
+    ["Admin", "admin123", "Peter", "p", "Wick", "Peter Wick", "Peter"]
+]
