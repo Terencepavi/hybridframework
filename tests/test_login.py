@@ -20,6 +20,7 @@ class TestLogin(WebDriverWrapper):
 class TestLoginUI:
     @pytest.fixture(scope='function')
     def setup(self):
+        # serv_driver = Service(executable_path=r"C:\Us
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
